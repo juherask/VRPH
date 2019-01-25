@@ -19,7 +19,7 @@ bool Swap::evaluate(class VRP *V, int u, int i, VRPMove *M)
     /// Evaluates the move of swapping the positions of nodes u and i in 
     /// the current   For example, 
     /// Current situation:    t-u-v and h-i-j 
-    /// New situation:        t-i-v and h-u-k        
+    /// New situation:        t-i-v and h-u-j
     ///
 
     if(V->routed[u]==false || V->routed[i]==false)
